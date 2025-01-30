@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vernon&#39;s Miscellany</title>
-    <link>http://localhost:1313/</link>
+    <link>https://aldernero.github.io/</link>
     <description>Recent content on Vernon&#39;s Miscellany</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Vernon Miller</copyright>
-    <lastBuildDate>Wed, 29 Jan 2025 19:27:07 -0700</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jan 2025 19:27:07 -0700</lastBuildDate><atom:link href="https://aldernero.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Time Jars</title>
-      <link>http://localhost:1313/blog/time-jars/</link>
+      <link>https://aldernero.github.io/blog/time-jars/</link>
       <pubDate>Wed, 29 Jan 2025 19:27:07 -0700</pubDate>
       
-      <guid>http://localhost:1313/blog/time-jars/</guid>
+      <guid>https://aldernero.github.io/blog/time-jars/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/time-jars/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://aldernero.github.io/blog/time-jars/feature.png" />
     </item>
     
   </channel>
