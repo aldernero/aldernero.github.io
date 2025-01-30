@@ -1,0 +1,33 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Vernon's Miscellany"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  # copyright = "Copy, _right?_ :thinking_face:"
+
+[params.author]
+  name = "Vernon Miller"
+  #email = "youremail@example.com"
+  image = "img/me.jpeg"
+  imageQuality = 96
+  headline = "SRE and generative artist"
+  #bio = "A place for my thoughts"
+  links = [
+    { bluesky = "https://bsky.app/@aldernero.bsky.social" },
+    { github = "https://github.com/aldernero" },
+    { instagram = "https://instagram.com/aldernero" },
+    #{ linkedin = "https://linkedin.com/in/username" },
+    { mastodon = "https://mstdn.social/@Aldernero" },
+    { threads = "https://www.threads.net/@aldernero" },
+    { x-twitter = "https://twitter.com/aldernero" },
+    { youtube = "https://www.youtube.com/@aldernero3376" },
+  ]
