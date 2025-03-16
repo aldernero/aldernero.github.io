@@ -141,16 +141,6 @@ BenchmarkCollatzEvenBitwise
 BenchmarkCollatzEvenBitwise-16        	1000000000	         0.2518 ns/op
 ```
 
-For Python the results were mixed:
-
-- *Expected*: iterative was faster that recursive
-- *Expected*: bitwise was faster than traditional for the recursive approach
-- *Surprising*: bitwise was *slower* than traditional for the iterative approach
-
-I'm not an expert (translation: I know nothing) in how the Python interpreter
-works, but I can't think of why 1) bitwise would be slower that traditional and 
-2) recursive would be faster than iterative for the bitwise approach. Double :shrug:
-
 # Summary
 
 This was a fun little exercise. I would be interested to see comparisons for other languages, 
