@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Introducing Sketchy &middot; Vernon&#39;s Miscellany</title>
-  <meta name="title" content="Introducing Sketchy &middot; Vernon&#39;s Miscellany" />
+  <title>Collatz Bitwise Comparison &middot; Vernon&#39;s Miscellany</title>
+  <meta name="title" content="Collatz Bitwise Comparison &middot; Vernon&#39;s Miscellany" />
   
   
-  <meta name="keywords" content="sketchy, generative art, golang, " />
+  <meta name="keywords" content="math, golang, python, " />
   
   
-  <link rel="canonical" href="http://localhost:1313/blog/introducing-sketchy/" />
+  <link rel="canonical" href="http://localhost:1313/blog/collatz-bitwise-comparison/" />
   
   
   
@@ -67,23 +67,23 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/blog/introducing-sketchy/">
+  <meta property="og:url" content="http://localhost:1313/blog/collatz-bitwise-comparison/">
   <meta property="og:site_name" content="Vernon&#39;s Miscellany">
-  <meta property="og:title" content="Introducing Sketchy">
+  <meta property="og:title" content="Collatz Bitwise Comparison">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2025-03-08T15:21:55-07:00">
-    <meta property="article:modified_time" content="2025-03-08T15:21:55-07:00">
-    <meta property="article:tag" content="Sketchy">
-    <meta property="article:tag" content="Generative Art">
+    <meta property="article:published_time" content="2025-03-15T19:26:19-06:00">
+    <meta property="article:modified_time" content="2025-03-15T19:26:19-06:00">
+    <meta property="article:tag" content="Math">
     <meta property="article:tag" content="Golang">
-    <meta property="og:image" content="http://localhost:1313/blog/introducing-sketchy/feature.png">
+    <meta property="article:tag" content="Python">
+    <meta property="og:image" content="http://localhost:1313/blog/collatz-bitwise-comparison/feature.webp">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/blog/introducing-sketchy/feature.png">
-  <meta name="twitter:title" content="Introducing Sketchy">
+  <meta name="twitter:image" content="http://localhost:1313/blog/collatz-bitwise-comparison/feature.webp">
+  <meta name="twitter:title" content="Collatz Bitwise Comparison">
 
   
   <script type="application/ld+json">
@@ -91,26 +91,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Blogs",
-    "name": "Introducing Sketchy",
-    "headline": "Introducing Sketchy",
+    "name": "Collatz Bitwise Comparison",
+    "headline": "Collatz Bitwise Comparison",
     
     
     "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/blog\/introducing-sketchy\/",
+    "url" : "http:\/\/localhost:1313\/blog\/collatz-bitwise-comparison\/",
     "author" : {
       "@type": "Person",
       "name": "Vernon Miller"
     },
     "copyrightYear": "2025",
-    "dateCreated": "2025-03-08T15:21:55-07:00",
-    "datePublished": "2025-03-08T15:21:55-07:00",
+    "dateCreated": "2025-03-15T19:26:19-06:00",
+    "datePublished": "2025-03-15T19:26:19-06:00",
     
-    "dateModified": "2025-03-08T15:21:55-07:00",
+    "dateModified": "2025-03-15T19:26:19-06:00",
     
-    "keywords": ["sketchy","generative art","golang"],
+    "keywords": ["math","golang","python"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "451"
+    "wordCount": "679"
   }]
   </script>
 
@@ -338,7 +338,7 @@
   
   
         
-            <div class="w-full h-36 md:h-56 lg:h-72 single_hero_basic nozoom" style="background-image:url(/blog/introducing-sketchy/feature_hu_91b5ab721b4ab072.png);"></div>
+            <div class="w-full h-36 md:h-56 lg:h-72 single_hero_basic nozoom" style="background-image:url(/blog/collatz-bitwise-comparison/feature_hu_270cfa56ab91eb54.webp);"></div>
         
     
   
@@ -347,7 +347,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Introducing Sketchy
+      Collatz Bitwise Comparison
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -392,7 +392,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-03-08T15:21:55-07:00">8 March 2025</time><span class="px-2 text-primary-500">&middot;</span><span>451 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  <time datetime="2025-03-15T19:26:19-06:00">15 March 2025</time><span class="px-2 text-primary-500">&middot;</span><span>679 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
   
 
   
@@ -408,34 +408,16 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/development/&#34;,'_self');return false;">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/math/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Development
-  </span>
-</span>
-  </span>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/sketchy/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Sketchy
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/generative-art/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Generative Art
+    Math
   </span>
 </span>
   </span>
@@ -444,6 +426,14 @@
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
     Golang
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/python/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Python
   </span>
 </span>
   </span>
@@ -488,158 +478,210 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          <p><strong>TL;DR</strong> Sketchy has been around for 3 years, but today marks its first official release, <code>v0.1.0</code>. Read below for more
-about the generative art framework for Go.</p>
+          <p><strong>TL;DR</strong> On Hacker News today I came across an interesting blog post called
+<a href="https://soatok.blog/2025/01/06/collatzeral-damage-bitwise-and-proof-foolish/" target="_blank">Collatzeral Damage: Bitwise and Proof Foolish</a>.
+It compared going through the sequence in a base-10 vs bitwise fashion. I was
+curious about the performance differences, so I did the comparison in both
+Go and Python. This post describes the results of that comparison.</p>
 
 
-<h1 class="relative group">What is Sketchy? 
-    <div id="what-is-sketchy" class="anchor"></div>
+<h1 class="relative group">Methodology 
+    <div id="methodology" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#what-is-sketchy" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#methodology" aria-label="Anchor">#</a>
     </span>        
     
 </h1>
-<p><a href="https://github.com/aldernero/sketchy" target="_blank">Sketchy</a> is a framework for generative art, similar to <a href="https://processing.org/" target="_blank">Processing</a> for Java,
-<a href="https://p5js.org/" target="_blank">p5.js</a> for JavaScript, <a href="https://github.com/abey79/vsketch" target="_blank">vsketch</a> for Python, and
-<a href="https://openframeworks.cc/" target="_blank">openFrameworks</a> for C++. It provides a canvas and controls for quickly
-iterating on designs. It can save results in PNG or SVG format. The latter is what I mostly use as
-I typically plot my designs with my AxiDraw v3 pen plotter.</p>
-<p>When I needed to learn the Go programming language for a new job, I figured that creating something with Go that
-aligned with my favorite hobby (generative art) would make for quick language aquisition. As it was one of the first
-apps I wrote in Go, it was a little rough around the edges. Over the last few years I&rsquo;ve been both improving Sketchy
-and using it to create most of my art. You can see all my art on my <a href="https://www.instagram.com/aldernero/" target="_blank">Instagram account</a>,
-below are a few examples from a fractal design.</p>
-<p>
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        srcset="
-        /blog/introducing-sketchy/example1_hu_9225b26c4eefcbb9.png 330w,
-        /blog/introducing-sketchy/example1_hu_18025cc1813a9084.png 660w,
-        /blog/introducing-sketchy/example1_hu_5227a3eab9691f5a.png 1024w,
-        /blog/introducing-sketchy/example1_hu_7276829b5d88cb33.png 2x"
-        src="/blog/introducing-sketchy/example1_hu_18025cc1813a9084.png"
-        alt="Example 1"
-      />
-      
-    </figure>
-</p>
-<p>
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        srcset="
-        /blog/introducing-sketchy/example2_hu_287e6902aada7bab.png 330w,
-        /blog/introducing-sketchy/example2_hu_b5ee4eefbe7885e4.png 660w,
-        /blog/introducing-sketchy/example2_hu_f3a3e8f3f267b68.png 1024w,
-        /blog/introducing-sketchy/example2_hu_86eeb731806ea0d0.png 2x"
-        src="/blog/introducing-sketchy/example2_hu_b5ee4eefbe7885e4.png"
-        alt="Example 2"
-      />
-      
-    </figure>
-</p>
-<p>
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        srcset="
-        /blog/introducing-sketchy/example3_hu_4282bb59c356b0dc.png 330w,
-        /blog/introducing-sketchy/example3_hu_fb165008af83302e.png 660w,
-        /blog/introducing-sketchy/example3_hu_863f06027dff698a.png 1024w,
-        /blog/introducing-sketchy/example3_hu_1193eb9c3dd3b08b.png 2x"
-        src="/blog/introducing-sketchy/example3_hu_fb165008af83302e.png"
-        alt="Example 3"
-      />
-      
-    </figure>
-</p>
-<p>Recently I realized that to increase adoption I ought to create a release, and spend more time on adding features
-and functions in a deliberate and planned way. The goal is to eventually get to a <code>v1.0</code> release.</p>
-
-
-<h1 class="relative group">What can Sketchy do? 
-    <div id="what-can-sketchy-do" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#what-can-sketchy-do" aria-label="Anchor">#</a>
-    </span>        
-    
-</h1>
-<p>Sketchy follows the familiar <code>setup/update/draw</code> pattern found in many generative art frameworks, shown below:</p>
-<p>
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        srcset="
-        /blog/introducing-sketchy/sketchy_diagram_hu_7168e40529de622f.png 330w,
-        /blog/introducing-sketchy/sketchy_diagram_hu_e9b93f5d6137385.png 660w,
-        /blog/introducing-sketchy/sketchy_diagram_hu_38f5e9aa6a6b4af0.png 1024w,
-        /blog/introducing-sketchy/sketchy_diagram_hu_c3bf7b435ac91ee3.png 2x"
-        src="/blog/introducing-sketchy/sketchy_diagram_hu_e9b93f5d6137385.png"
-        alt="Sketchy Diagram"
-      />
-      
-    </figure>
-</p>
-<p>The configuration file describes things like the sketch dimensions and title, as well as controls like sliders,
-checkboxes, and buttons that can be referenced from code.</p>
-<p>In the code itself the controls can be used like</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="c1">// get the value from a slider control</span>
-</span></span><span class="line"><span class="cl"><span class="nx">sliderVal</span> <span class="o">:=</span> <span class="nx">s</span><span class="p">.</span><span class="nf">Slider</span><span class="p">(</span><span class="s">&#34;slider name&#34;</span><span class="p">)</span>  <span class="c1">// float64</span>
+<p>Both of the programs for Go and Python were extremely simple, and I put them
+in this GitHub repo: <a href="https://github.com/aldernero/collatz-bitwise-blog-post" target="_blank">https://github.com/aldernero/collatz-bitwise-blog-post</a></p>
+<p>The key parts of each are below:</p>
+<p><strong>Go</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">collatzRecursiveTraditional</span><span class="p">(</span><span class="nx">n</span> <span class="kt">uint64</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="nx">n</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">return</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="nx">n</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nf">collatzRecursiveTraditional</span><span class="p">(</span><span class="mi">3</span><span class="o">*</span><span class="nx">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nf">collatzRecursiveTraditional</span><span class="p">(</span><span class="nx">n</span> <span class="o">/</span> <span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// both checkboxes and buttons are Toggle structs</span>
-</span></span><span class="line"><span class="cl"><span class="nx">toggleVal</span> <span class="o">:=</span> <span class="nx">s</span><span class="p">.</span><span class="nf">Toggle</span><span class="p">(</span><span class="s">&#34;checkbox/button name&#34;</span><span class="p">)</span> <span class="c1">// bool</span>
-</span></span></code></pre></div><p>Besides the user defined controls, there are some builtin controls that cover the random seed and saving files. The
-image below shows an example Control Panel</p>
-<p>
-    <figure>
-      <img
-        class="my-0 rounded-md"
-        loading="lazy"
-        srcset="
-        /blog/introducing-sketchy/control_panel_hu_8826f4bac337c809.png 330w,
-        /blog/introducing-sketchy/control_panel_hu_bad46eae780abdbe.png 660w,
-        /blog/introducing-sketchy/control_panel_hu_533643bd3e7ab628.png 1024w,
-        /blog/introducing-sketchy/control_panel_hu_ff1727914d79d51.png 2x"
-        src="/blog/introducing-sketchy/control_panel_hu_bad46eae780abdbe.png"
-        alt="Control Panel"
-      />
-      
-    </figure>
-</p>
-<p>The github repo has more examples and a tutorial for creating a &ldquo;Hello Circle&rdquo; (instead of &ldquo;Hello World&rdquo;) project.</p>
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">collatzRecursiveBitwise</span><span class="p">(</span><span class="nx">n</span> <span class="kt">uint64</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="nx">n</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="k">return</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="p">(</span><span class="nx">n</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nf">collatzRecursiveBitwise</span><span class="p">(((</span><span class="nx">n</span> <span class="o">&lt;&lt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">|</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nx">n</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nf">collatzRecursiveBitwise</span><span class="p">(</span><span class="nx">n</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p><strong>Python</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">collatz_recur_trad</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">n</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">collatz_recur_trad</span><span class="p">(</span><span class="mi">3</span><span class="o">*</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">collatz_recur_trad</span><span class="p">(</span><span class="n">n</span><span class="o">//</span><span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">collatz_recur_bit</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">n</span> <span class="o">&amp;</span> <span class="mi">1</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">collatz_recur_bit</span><span class="p">(((</span><span class="n">n</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="o">|</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">n</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">collatz_recur_bit</span><span class="p">(</span><span class="n">n</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span><span class="p">)</span>
+</span></span></code></pre></div><p>The blog post covers a recursive approach, but in testing I also used an
+iterative approach. I ran all 4 combinations (traditional &amp;&amp; bitwise, recursive &amp;&amp; iterative)
+for both languages. I calculated the time to traverse the Collatz sequence for
+integers from 1 to 10 million.</p>
 
 
-<h1 class="relative group">What&rsquo;s next? 
-    <div id="whats-next" class="anchor"></div>
+<h1 class="relative group">Results 
+    <div id="results" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#whats-next" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#results" aria-label="Anchor">#</a>
     </span>        
     
 </h1>
-<p>I plan to add some new features in upcoming releases:</p>
+<p>The table below shows the elapsed time for all combinations.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Method</th>
+          <th>Approach</th>
+          <th>Go</th>
+          <th>Python</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Traditional</td>
+          <td>recursive</td>
+          <td>7.4s</td>
+          <td>147.2s</td>
+      </tr>
+      <tr>
+          <td>Bitwise</td>
+          <td>recursive</td>
+          <td>7.2s</td>
+          <td>29.8s</td>
+      </tr>
+      <tr>
+          <td>Traditional</td>
+          <td>iterative</td>
+          <td>2.4s</td>
+          <td>101.8s</td>
+      </tr>
+      <tr>
+          <td>Bitwise</td>
+          <td>iterative</td>
+          <td>2.4s</td>
+          <td>24.5s</td>
+      </tr>
+  </tbody>
+</table>
+<p>The results were mostly expected</p>
 <ul>
-<li>An <code>install</code> sketchy cli subcommand that would create a config file in the user&rsquo;s home directory.</li>
-<li>A configuration file to store things like default colors, fonts, etc. that can be referenced in designs.</li>
-<li>Perhaps a way to design for very large outputs while showing a scaled down version while iterating.</li>
-<li>Maybe additional controls in the Control Panel like color controls.</li>
+<li>iterative is faster than recursive</li>
+<li>For Go the performance was similar for bitwise and traditional approaches, but for Python bitwise is faster</li>
+<li>Golang is faster than Python (duh)</li>
 </ul>
-<p>Like with any open source project, feel free to open issues in the <a href="https://github.com/aldernero/sketchy/issues" target="_blank">github repo</a> if you want to request features
-or run into any bugs.</p>
-<p><strong>Happy Sketching!</strong></p>
+<p>I think the first point is expected since iterative is closer to what the CPU
+actually does to perform the calculation, and uses less memory.</p>
+<p>At first I wasn&rsquo;t
+sure what the performance difference between traditional and bitwise would be for Go,
+but given that it&rsquo;s a compiled language I suppose all the base-10 arithmetic
+operations get turned into bitwise operations during compilation? &#x1f937; For Python it makes
+sense that bitwise would be faster since it&rsquo;s an interpreted language and using bitwise
+operations skips a step for the intepreter to do the conversion.</p>
+<p>For Go we can isolate the comparison further by benchmarking the individual
+parts of the calcualtion:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">BenchmarkCollatzOddTraditional</span><span class="p">(</span><span class="nx">b</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">B</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="nx">b</span><span class="p">.</span><span class="nx">N</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">_</span> <span class="p">=</span> <span class="mi">3</span><span class="o">*</span><span class="nx">i</span> <span class="o">+</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">BenchmarkCollatzEvenTraditional</span><span class="p">(</span><span class="nx">b</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">B</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="nx">b</span><span class="p">.</span><span class="nx">N</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">_</span> <span class="p">=</span> <span class="nx">i</span> <span class="o">/</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">BenchmarkCollatzOddBitwise</span><span class="p">(</span><span class="nx">b</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">B</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="nx">b</span><span class="p">.</span><span class="nx">N</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">_</span> <span class="p">=</span> <span class="p">((</span><span class="nx">i</span> <span class="o">&lt;&lt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">|</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nx">i</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">BenchmarkCollatzEvenBitwise</span><span class="p">(</span><span class="nx">b</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">B</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="nx">b</span><span class="p">.</span><span class="nx">N</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">_</span> <span class="p">=</span> <span class="nx">i</span> <span class="o">&gt;&gt;</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>Running the benchmark shows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">goos: linux
+</span></span><span class="line"><span class="cl">goarch: amd64
+</span></span><span class="line"><span class="cl">pkg: collatzBitwise
+</span></span><span class="line"><span class="cl">cpu: AMD Ryzen <span class="m">7</span> 3700X 8-Core Processor             
+</span></span><span class="line"><span class="cl">BenchmarkCollatzOddTraditional
+</span></span><span class="line"><span class="cl">BenchmarkCollatzOddTraditional-16     	1000000000	         0.2551 ns/op
+</span></span><span class="line"><span class="cl">BenchmarkCollatzEvenTraditional
+</span></span><span class="line"><span class="cl">BenchmarkCollatzEvenTraditional-16    	1000000000	         0.2614 ns/op
+</span></span><span class="line"><span class="cl">BenchmarkCollatzOddBitwise
+</span></span><span class="line"><span class="cl">BenchmarkCollatzOddBitwise-16         	1000000000	         0.2528 ns/op
+</span></span><span class="line"><span class="cl">BenchmarkCollatzEvenBitwise
+</span></span><span class="line"><span class="cl">BenchmarkCollatzEvenBitwise-16        	1000000000	         0.2518 ns/op
+</span></span></code></pre></div><p>For Python the results were mixed:</p>
+<ul>
+<li><em>Expected</em>: iterative was faster that recursive</li>
+<li><em>Expected</em>: bitwise was faster than traditional for the recursive approach</li>
+<li><em>Surprising</em>: bitwise was <em>slower</em> than traditional for the iterative approach</li>
+</ul>
+<p>I&rsquo;m not an expert (translation: I know nothing) in how the Python interpreter
+works, but I can&rsquo;t think of why 1) bitwise would be slower that traditional and
+2) recursive would be faster than iterative for the bitwise approach. Double &#x1f937;</p>
+
+
+<h1 class="relative group">Summary 
+    <div id="summary" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#summary" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>This was a fun little exercise. I would be interested to see comparisons for other languages,
+but I only had the patience to test these two. If you test some other language, let me know
+on one of the social platforms.</p>
+
+
+<h1 class="relative group">References 
+    <div id="references" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#references" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<ol>
+<li><a href="https://news.ycombinator.com/item?id=43375353" target="_blank">https://news.ycombinator.com/item?id=43375353</a> - Hacker News article discussing the blog post</li>
+<li><a href="https://soatok.blog/2025/01/06/collatzeral-damage-bitwise-and-proof-foolish/" target="_blank">Collatzeral Damage: Bitwise and Proof Foolish</a> - blog post that inspired this post</li>
+<li><a href="https://github.com/aldernero/collatz-bitwise-blog-post" target="_blank">https://github.com/aldernero/collatz-bitwise-blog-post</a> - GitHub repo with the code used in this post</li>
+</ol>
 
           
           
@@ -657,7 +699,7 @@ or run into any bugs.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://bsky.app/intent/compose?text=Introducing%20Sketchy&#43;http://localhost:1313/blog/introducing-sketchy/"
+      href="https://bsky.app/intent/compose?text=Collatz%20Bitwise%20Comparison&#43;http://localhost:1313/blog/collatz-bitwise-comparison/"
       title="Post on Bluesky"
       aria-label="Post on Bluesky"
       >
@@ -675,7 +717,7 @@ or run into any bugs.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://s2f.kytta.dev/?text=Introducing%20Sketchy%20http://localhost:1313/blog/introducing-sketchy/"
+      href="https://s2f.kytta.dev/?text=Collatz%20Bitwise%20Comparison%20http://localhost:1313/blog/collatz-bitwise-comparison/"
       title=""
       aria-label=""
       >
@@ -694,7 +736,7 @@ or run into any bugs.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://reddit.com/submit/?url=http://localhost:1313/blog/introducing-sketchy/&amp;resubmit=true&amp;title=Introducing%20Sketchy"
+      href="https://reddit.com/submit/?url=http://localhost:1313/blog/collatz-bitwise-comparison/&amp;resubmit=true&amp;title=Collatz%20Bitwise%20Comparison"
       title="Submit to Reddit"
       aria-label="Submit to Reddit"
       >
@@ -713,7 +755,7 @@ or run into any bugs.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/blog/introducing-sketchy/&amp;description=Introducing%20Sketchy"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/blog/collatz-bitwise-comparison/&amp;description=Collatz%20Bitwise%20Comparison"
       title="Pin on Pinterest"
       aria-label="Pin on Pinterest"
       >
@@ -732,7 +774,7 @@ or run into any bugs.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/blog/introducing-sketchy/&amp;title=Introducing%20Sketchy"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/blog/collatz-bitwise-comparison/&amp;title=Collatz%20Bitwise%20Comparison"
       title="Share on LinkedIn"
       aria-label="Share on LinkedIn"
       >
@@ -751,7 +793,7 @@ or run into any bugs.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/blog/introducing-sketchy/&amp;quote=Introducing%20Sketchy"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/blog/collatz-bitwise-comparison/&amp;quote=Collatz%20Bitwise%20Comparison"
       title="Share on Facebook"
       aria-label="Share on Facebook"
       >
@@ -770,7 +812,7 @@ or run into any bugs.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=http://localhost:1313/blog/introducing-sketchy/&amp;resubmit=true&amp;title=Introducing%20Sketchy"
+      href="https://api.whatsapp.com/send?text=http://localhost:1313/blog/collatz-bitwise-comparison/&amp;resubmit=true&amp;title=Collatz%20Bitwise%20Comparison"
       title="Share via WhatsApp"
       aria-label="Share via WhatsApp"
       >
@@ -789,7 +831,7 @@ or run into any bugs.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/blog/introducing-sketchy/&amp;text=Introducing%20Sketchy"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/blog/collatz-bitwise-comparison/&amp;text=Collatz%20Bitwise%20Comparison"
       title="Tweet on Twitter"
       aria-label="Tweet on Twitter"
       >
@@ -817,8 +859,8 @@ or run into any bugs.</p>
           
         
       <script>
-        var oid = "views_blog\/introducing-sketchy\/index.md"
-        var oid_likes = "likes_blog\/introducing-sketchy\/index.md"
+        var oid = "views_blog\/collatz-bitwise-comparison\/index.md"
+        var oid_likes = "likes_blog\/collatz-bitwise-comparison\/index.md"
       </script>
       
       
@@ -838,7 +880,7 @@ or run into any bugs.</p>
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/blog/time-jars/">
+            <a class="flex group mr-3" href="/blog/introducing-sketchy/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -850,11 +892,11 @@ or run into any bugs.</p>
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Time Jars</span
+                  >Introducing Sketchy</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2025-01-29T19:27:07-07:00">29 January 2025</time>
+                    <time datetime="2025-03-08T15:21:55-07:00">8 March 2025</time>
                   
                 </span>
               </span>
@@ -862,28 +904,6 @@ or run into any bugs.</p>
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/blog/collatz-bitwise-comparison/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Collatz Bitwise Comparison</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2025-03-15T19:26:19-06:00">15 March 2025</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>
