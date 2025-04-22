@@ -10,13 +10,13 @@
     <lastBuildDate>Sun, 20 Apr 2025 10:52:03 -0600</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Kde Appimage</title>
+      <title>Manual Desktop Entries for AppImages</title>
       <link>http://localhost:1313/blog/kde-appimage/</link>
       <pubDate>Sun, 20 Apr 2025 10:52:03 -0600</pubDate>
       
       <guid>http://localhost:1313/blog/kde-appimage/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/kde-appimage/feature.png" />
     </item>
     
     <item>

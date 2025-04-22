@@ -8,11 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Kde Appimage &middot; Vernon&#39;s Miscellany</title>
-  <meta name="title" content="Kde Appimage &middot; Vernon&#39;s Miscellany" />
+  <title>Manual Desktop Entries for AppImages &middot; Vernon&#39;s Miscellany</title>
+  <meta name="title" content="Manual Desktop Entries for AppImages &middot; Vernon&#39;s Miscellany" />
   
   
-  
+  <meta name="keywords" content="linux, kde, inkscape, " />
   
   
   <link rel="canonical" href="http://localhost:1313/blog/kde-appimage/" />
@@ -69,18 +69,21 @@
   
   <meta property="og:url" content="http://localhost:1313/blog/kde-appimage/">
   <meta property="og:site_name" content="Vernon&#39;s Miscellany">
-  <meta property="og:title" content="Kde Appimage">
+  <meta property="og:title" content="Manual Desktop Entries for AppImages">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
     <meta property="article:published_time" content="2025-04-20T10:52:03-06:00">
     <meta property="article:modified_time" content="2025-04-20T10:52:03-06:00">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Kde">
+    <meta property="article:tag" content="Inkscape">
     <meta property="og:image" content="http://localhost:1313/blog/kde-appimage/feature.png">
 
   
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/blog/kde-appimage/feature.png">
-  <meta name="twitter:title" content="Kde Appimage">
+  <meta name="twitter:title" content="Manual Desktop Entries for AppImages">
 
   
   <script type="application/ld+json">
@@ -88,8 +91,8 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Blogs",
-    "name": "Kde Appimage",
-    "headline": "Kde Appimage",
+    "name": "Manual Desktop Entries for AppImages",
+    "headline": "Manual Desktop Entries for AppImages",
     
     
     "inLanguage": "en",
@@ -104,10 +107,10 @@
     
     "dateModified": "2025-04-20T10:52:03-06:00",
     
-    
+    "keywords": ["linux","kde","inkscape"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "118"
+    "wordCount": "365"
   }]
   </script>
 
@@ -344,7 +347,7 @@
   <header id="single_header" class="mt-5 max-w-prose">
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Kde Appimage
+      Manual Desktop Entries for AppImages
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -389,16 +392,10 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-04-20T10:52:03-06:00">20 April 2025</time><span class="px-2 text-primary-500">&middot;</span><span>118 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  <time datetime="2025-04-20T10:52:03-06:00">20 April 2025</time><span class="px-2 text-primary-500">&middot;</span><span>365 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
   
 
   
-  
-  <span class="pl-2"><span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Draft
-  </span>
-</span></span>
   
 </div>
 
@@ -414,6 +411,32 @@
   
   
   
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/linux/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Linux
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/kde/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Kde
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/inkscape/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Inkscape
+  </span>
+</span>
+  </span>
   
   
   
@@ -491,7 +514,96 @@ the executable. You see a notification that shows it can&rsquo;t find the app in
     </figure>
 </p>
 <p>Other times, depending on how the app is packaged and initially configured,
-everything works right out of the box.</p>
+everything works right out of the box. This post shows you how to make a launcher
+for AppImage&rsquo;s manually.</p>
+
+
+<h1 class="relative group">What to do 
+    <div id="what-to-do" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#what-to-do" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>As an example I&rsquo;ll work through making a launcher for Inkscape, which prefers
+the AppImage format for Linux. Let&rsquo;s assume that I&rsquo;ve downloaded the file, <code>Inkscape-e7c3feb-x86_64_0QCD8vJ.AppImage</code>,
+and put it in my <code>~/apps/</code> folder.</p>
+<p>Open the app, then see where it is mounted from the terminal</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /blog/kde-appimage/screenshot2_hu_158185b9a1a3909.png 330w,
+        /blog/kde-appimage/screenshot2_hu_f3e40a38511b7153.png 660w,
+        /blog/kde-appimage/screenshot2_hu_2e2c0a39292dfeb2.png 1024w,
+        /blog/kde-appimage/screenshot2_hu_fcf6162a258c30fc.png 2x"
+        src="/blog/kde-appimage/screenshot2_hu_f3e40a38511b7153.png"
+        alt="Show AppImage temporary mount point"
+      />
+      
+    </figure>
+</p>
+<p>Looking at the directory, there is a logo file (<code>org.inkscape.Inkscape.png</code>) and
+a desktop file (<code>org.inkscape.Inkscape.png</code>).</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /blog/kde-appimage/screenshot3_hu_c9e631a16849efde.png 330w,
+        /blog/kde-appimage/screenshot3_hu_b6a2470f4ac6db6b.png 660w,
+        /blog/kde-appimage/screenshot3_hu_f1245800a1758f25.png 1024w,
+        /blog/kde-appimage/screenshot3_hu_c55a6fe133a6b158.png 2x"
+        src="/blog/kde-appimage/screenshot3_hu_b6a2470f4ac6db6b.png"
+        alt="Contents of temporary directory"
+      />
+      
+    </figure>
+</p>
+<p>Every AppImage I have looked at
+has a logo and desktop file, now they just need to go somewhere the system will
+recognize them. On Linux systems this will be in the user&rsquo;s <code>~/.local/</code> directory.</p>
+<p>Move the logo file to <code>~/.local/share/logos/</code> and the desktop file to
+<code>~/.local/share/applications/</code>.</p>
+<p>You may need to edit the <code>Exec=</code> using the full path to the AppImage file. In
+the case of Inkscape, the default desktop file was overly complex, so I made a
+new one with contents</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ini" data-lang="ini"><span class="line"><span class="cl"><span class="k">[Desktop Entry]</span>
+</span></span><span class="line"><span class="cl"><span class="na">Version</span><span class="o">=</span><span class="s">1.0</span>
+</span></span><span class="line"><span class="cl"><span class="na">Name</span><span class="o">=</span><span class="s">Inkscape</span>
+</span></span><span class="line"><span class="cl"><span class="na">Categories</span><span class="o">=</span><span class="s">Graphics</span>
+</span></span><span class="line"><span class="cl"><span class="na">Terminal</span><span class="o">=</span><span class="s">false</span>
+</span></span><span class="line"><span class="cl"><span class="na">Icon</span><span class="o">=</span><span class="s">org.inkscape.Inkscape</span>
+</span></span><span class="line"><span class="cl"><span class="na">Exec</span><span class="o">=</span><span class="s">/home/vernon/apps/Inkscape-e7c3feb-x86_64_0QCD8vJ.AppImage</span>
+</span></span></code></pre></div><p>The &ldquo;Categories&rdquo; parameter is important as that is where the app will show up
+in the system menu (for me it&rsquo;s KDE&rsquo;s application launcher). Run the <code>update-desktop-database</code>
+command with the local applications directory for the system to recognize the changes.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">update-desktop-database ~/.local/share/applications
+</span></span></code></pre></div><p>Now the launcher should be visible from the runner (Alt+F2) and system menus.</p>
+<p>
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        loading="lazy"
+        srcset="
+        /blog/kde-appimage/screenshot4_hu_2fbbfaadc078c487.png 330w,
+        /blog/kde-appimage/screenshot4_hu_4b28da11f586beea.png 660w,
+        /blog/kde-appimage/screenshot4_hu_4aceed52f82e398b.png 1024w,
+        /blog/kde-appimage/screenshot4_hu_d2d567f401ba9667.png 2x"
+        src="/blog/kde-appimage/screenshot4_hu_4b28da11f586beea.png"
+        alt="App pinned to taskbar"
+      />
+      
+    </figure>
+</p>
+<p>And that&rsquo;s it. There are tools for managing AppImage installations, but I use
+a small enough number of them that I prefer to manage things manually.</p>
 
           
           
@@ -509,7 +621,7 @@ everything works right out of the box.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://bsky.app/intent/compose?text=Kde%20Appimage&#43;http://localhost:1313/blog/kde-appimage/"
+      href="https://bsky.app/intent/compose?text=Manual%20Desktop%20Entries%20for%20AppImages&#43;http://localhost:1313/blog/kde-appimage/"
       title="Post on Bluesky"
       aria-label="Post on Bluesky"
       >
@@ -527,7 +639,7 @@ everything works right out of the box.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://s2f.kytta.dev/?text=Kde%20Appimage%20http://localhost:1313/blog/kde-appimage/"
+      href="https://s2f.kytta.dev/?text=Manual%20Desktop%20Entries%20for%20AppImages%20http://localhost:1313/blog/kde-appimage/"
       title=""
       aria-label=""
       >
@@ -546,7 +658,7 @@ everything works right out of the box.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://reddit.com/submit/?url=http://localhost:1313/blog/kde-appimage/&amp;resubmit=true&amp;title=Kde%20Appimage"
+      href="https://reddit.com/submit/?url=http://localhost:1313/blog/kde-appimage/&amp;resubmit=true&amp;title=Manual%20Desktop%20Entries%20for%20AppImages"
       title="Submit to Reddit"
       aria-label="Submit to Reddit"
       >
@@ -565,7 +677,7 @@ everything works right out of the box.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/blog/kde-appimage/&amp;description=Kde%20Appimage"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=http://localhost:1313/blog/kde-appimage/&amp;description=Manual%20Desktop%20Entries%20for%20AppImages"
       title="Pin on Pinterest"
       aria-label="Pin on Pinterest"
       >
@@ -584,7 +696,7 @@ everything works right out of the box.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/blog/kde-appimage/&amp;title=Kde%20Appimage"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/blog/kde-appimage/&amp;title=Manual%20Desktop%20Entries%20for%20AppImages"
       title="Share on LinkedIn"
       aria-label="Share on LinkedIn"
       >
@@ -603,7 +715,7 @@ everything works right out of the box.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/blog/kde-appimage/&amp;quote=Kde%20Appimage"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/blog/kde-appimage/&amp;quote=Manual%20Desktop%20Entries%20for%20AppImages"
       title="Share on Facebook"
       aria-label="Share on Facebook"
       >
@@ -622,7 +734,7 @@ everything works right out of the box.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=http://localhost:1313/blog/kde-appimage/&amp;resubmit=true&amp;title=Kde%20Appimage"
+      href="https://api.whatsapp.com/send?text=http://localhost:1313/blog/kde-appimage/&amp;resubmit=true&amp;title=Manual%20Desktop%20Entries%20for%20AppImages"
       title="Share via WhatsApp"
       aria-label="Share via WhatsApp"
       >
@@ -641,7 +753,7 @@ everything works right out of the box.</p>
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/blog/kde-appimage/&amp;text=Kde%20Appimage"
+      href="https://twitter.com/intent/tweet/?url=http://localhost:1313/blog/kde-appimage/&amp;text=Manual%20Desktop%20Entries%20for%20AppImages"
       title="Tweet on Twitter"
       aria-label="Tweet on Twitter"
       >

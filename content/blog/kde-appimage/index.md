@@ -1,7 +1,8 @@
 +++
 date = '2025-04-20T10:52:03-06:00'
 draft = false
-title = 'Manual Desktop Entries for AppImage's'
+title = 'Manual Desktop Entries for AppImages'
+tags = ["linux", "kde", "inkscape"]
 +++
 
 **TL;DR** This short post shows you how to create an application entry for AppImage's in KDE. This makes it easier
