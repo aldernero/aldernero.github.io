@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Vernon&#39;s Miscellany</title>
+    <link>https://aldernero.github.io/tags/linux/</link>
+    <description>Recent content in Linux on Vernon&#39;s Miscellany</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Vernon Miller</copyright>
+    <lastBuildDate>Sun, 20 Apr 2025 10:52:03 -0600</lastBuildDate><atom:link href="https://aldernero.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Manual Desktop Entries for AppImages</title>
+      <link>https://aldernero.github.io/blog/kde-appimage/</link>
+      <pubDate>Sun, 20 Apr 2025 10:52:03 -0600</pubDate>
+      
+      <guid>https://aldernero.github.io/blog/kde-appimage/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://aldernero.github.io/blog/kde-appimage/feature.png" />
+    </item>
+    
+  </channel>
+</rss>
