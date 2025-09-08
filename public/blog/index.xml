@@ -2,51 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Vernon&#39;s Miscellany</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://aldernero.github.io/blog/</link>
     <description>Recent content in Blogs on Vernon&#39;s Miscellany</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Vernon Miller</copyright>
-    <lastBuildDate>Sun, 20 Apr 2025 10:52:03 -0600</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://aldernero.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Setting up a MySQL environment in TrueNAS</title>
+      <link>https://aldernero.github.io/blog/1757284330287-mysql-truenas/</link>
+      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://aldernero.github.io/blog/1757284330287-mysql-truenas/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://aldernero.github.io/blog/1757284330287-mysql-truenas/feature.png" />
+    </item>
     
     <item>
       <title>Manual Desktop Entries for AppImages</title>
-      <link>http://localhost:1313/blog/kde-appimage/</link>
+      <link>https://aldernero.github.io/blog/kde-appimage/</link>
       <pubDate>Sun, 20 Apr 2025 10:52:03 -0600</pubDate>
       
-      <guid>http://localhost:1313/blog/kde-appimage/</guid>
+      <guid>https://aldernero.github.io/blog/kde-appimage/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/kde-appimage/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://aldernero.github.io/blog/kde-appimage/feature.png" />
     </item>
     
     <item>
       <title>Collatz Bitwise Comparison</title>
-      <link>http://localhost:1313/blog/collatz-bitwise-comparison/</link>
+      <link>https://aldernero.github.io/blog/collatz-bitwise-comparison/</link>
       <pubDate>Sat, 15 Mar 2025 19:26:19 -0600</pubDate>
       
-      <guid>http://localhost:1313/blog/collatz-bitwise-comparison/</guid>
+      <guid>https://aldernero.github.io/blog/collatz-bitwise-comparison/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/collatz-bitwise-comparison/feature.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://aldernero.github.io/blog/collatz-bitwise-comparison/feature.webp" />
     </item>
     
     <item>
       <title>Introducing Sketchy</title>
-      <link>http://localhost:1313/blog/introducing-sketchy/</link>
+      <link>https://aldernero.github.io/blog/introducing-sketchy/</link>
       <pubDate>Sat, 08 Mar 2025 15:21:55 -0700</pubDate>
       
-      <guid>http://localhost:1313/blog/introducing-sketchy/</guid>
+      <guid>https://aldernero.github.io/blog/introducing-sketchy/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/introducing-sketchy/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://aldernero.github.io/blog/introducing-sketchy/feature.png" />
     </item>
     
     <item>
       <title>Time Jars</title>
-      <link>http://localhost:1313/blog/time-jars/</link>
+      <link>https://aldernero.github.io/blog/time-jars/</link>
       <pubDate>Wed, 29 Jan 2025 19:27:07 -0700</pubDate>
       
-      <guid>http://localhost:1313/blog/time-jars/</guid>
+      <guid>https://aldernero.github.io/blog/time-jars/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/blog/time-jars/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://aldernero.github.io/blog/time-jars/feature.png" />
     </item>
     
   </channel>
