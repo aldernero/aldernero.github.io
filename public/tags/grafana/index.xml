@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Vernon Miller</copyright>
-    <lastBuildDate>Sun, 07 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://aldernero.github.io/tags/grafana/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Sep 2025 20:32:07 -0600</lastBuildDate><atom:link href="https://aldernero.github.io/tags/grafana/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Adding IMDb&#39;s Public Dataset to MySQL</title>
+      <link>https://aldernero.github.io/blog/imdb-mysql/</link>
+      <pubDate>Mon, 29 Sep 2025 20:32:07 -0600</pubDate>
+      
+      <guid>https://aldernero.github.io/blog/imdb-mysql/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://aldernero.github.io/blog/imdb-mysql/feature.jpg" />
+    </item>
     
     <item>
       <title>Setting up a MySQL environment in TrueNAS</title>
