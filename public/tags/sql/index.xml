@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sql on Vernon&#39;s Miscellany</title>
+    <link>https://aldernero.github.io/tags/sql/</link>
+    <description>Recent content in Sql on Vernon&#39;s Miscellany</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Vernon Miller</copyright>
+    <lastBuildDate>Mon, 29 Sep 2025 20:32:07 -0600</lastBuildDate><atom:link href="https://aldernero.github.io/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Adding IMDb&#39;s Public Dataset to MySQL</title>
+      <link>https://aldernero.github.io/blog/imdb-mysql/</link>
+      <pubDate>Mon, 29 Sep 2025 20:32:07 -0600</pubDate>
+      
+      <guid>https://aldernero.github.io/blog/imdb-mysql/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://aldernero.github.io/blog/imdb-mysql/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>
